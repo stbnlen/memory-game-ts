@@ -1,5 +1,5 @@
-import { Title } from 'components/Title';
-import { Turns } from 'components/Turns';
+import { Title } from '@components/Title';
+import { Turns } from '@components/Turns';
 import React from 'react';
 
 type Props = {

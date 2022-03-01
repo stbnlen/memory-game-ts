@@ -1,10 +1,9 @@
-import './styles/App.scss';
+import '@styles/App.scss';
 
-import { AppContainer } from 'containers/AppContainer';
+import { SingleCard } from '@components/SingleCard';
+import { AppContainer } from '@containers/AppContainer';
+import { useGame } from '@hooks/useGame';
 import React from 'react';
-
-import { SingleCard } from './components/SingleCard';
-import { useGame } from './hooks/useGame';
 
 export type Card = {
   id?: number;

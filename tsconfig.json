@@ -4,6 +4,13 @@
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "types": ["vite/client"],
     "baseUrl": "src",
+    "paths": {
+      "@styles/*": ["styles/*"],
+      "@components/*": ["components/*"],
+      "@assets/*": ["assets/*"],
+      "@containers/*": ["containers/*"],
+      "@hooks/*": ["hooks/*"],
+    },
     "allowJs": false,
     "skipLibCheck": false,
     "esModuleInterop": false,

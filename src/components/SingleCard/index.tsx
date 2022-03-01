@@ -3,10 +3,9 @@
 /* eslint-disable no-unused-vars */
 import './SingleCard.scss';
 
+import back from '@assets/images/cover.png';
 import { Card } from 'App';
 import React from 'react';
-
-import back from '../../assets/images/cover.png';
 
 type T = Card;
 
